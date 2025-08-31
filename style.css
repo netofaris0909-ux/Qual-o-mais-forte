@@ -1,0 +1,161 @@
+body {
+
+  margin: 0;
+
+  background: #151515;
+
+  color: #fff;
+
+  font-family: Arial, sans-serif;
+
+}
+
+.container {
+
+  max-width: 480px;
+
+  margin: 60px auto;
+
+  text-align: center;
+
+  background: #222;
+
+  border-radius: 12px;
+
+  box-shadow: 0 0 30px #0005;
+
+  padding: 32px 20px 28px 20px;
+
+}
+
+h1 {
+
+  font-size: 2rem;
+
+  margin-bottom: 30px;
+
+}
+
+.animals {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  gap: 12px;
+
+}
+
+.animal {
+
+  flex: 1;
+
+  background: #333;
+
+  border-radius: 10px;
+
+  padding: 12px 7px;
+
+  box-shadow: 0 3px 10px #0003;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+}
+
+.animal img {
+
+  width: 105px;
+
+  height: 105px;
+
+  object-fit: cover;
+
+  border-radius: 8px;
+
+  margin-bottom: 8px;
+
+  border: 2px solid #444;
+
+}
+
+.nome {
+
+  font-size: 1.1rem;
+
+  font-weight: bold;
+
+  margin-bottom: 12px;
+
+  letter-spacing: 1px;
+
+}
+
+.escolher {
+
+  background: #ff5c5c;
+
+  color: #fff;
+
+  border: none;
+
+  border-radius: 7px;
+
+  padding: 8px 18px;
+
+  font-size: 1rem;
+
+  cursor: pointer;
+
+  transition: background .2s;
+
+}
+
+.escolher:hover {
+
+  background: #ff2222;
+
+}
+
+#resultado {
+
+  margin-top: 28px;
+
+  font-size: 1.25rem;
+
+  font-weight: bold;
+
+}
+
+#proxima {
+
+  margin-top: 22px;
+
+  background: #5cff85;
+
+  color: #222;
+
+  border: none;
+
+  border-radius: 7px;
+
+  padding: 10px 22px;
+
+  font-size: 1.1rem;
+
+  cursor: pointer;
+
+  font-weight: bold;
+
+  transition: background .2s;
+
+}
+
+#proxima:hover {
+
+  background: #24e45f;
+
+}
